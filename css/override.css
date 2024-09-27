@@ -44,9 +44,15 @@ hr {
   opacity: 0.3;
 }
 
-.site-title {
-  background: url(https://raw.githubusercontent.com/turning-pages/turning-pages.github.io/refs/heads/main/css/turning-pages.png) no-repeat 6px center;
+.site-title:before {
+  content: url(https://raw.githubusercontent.com/turning-pages/turning-pages.github.io/refs/heads/main/css/turning-pages.png) no-repeat 6px center;
   width: 280px;
   height: 54px;
   display: block;
+}
+
+.goodreadsIco {
+  height: 18px;
+  vertical-align: bottom;
+  margin-bottom: -2px;
 }
