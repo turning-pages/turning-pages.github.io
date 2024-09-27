@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Welcome to **Turning Pages**, a little corner where stories unfold and thoughts wander. Here, I muse over the books that have crossed my path—what they whisper, where they falter, and the truths they leave behind. If you're a fellow traveler in the world of words, you'll find recommendations to guide your next literary adventure. Let’s turn these pages together, one story at a time.
