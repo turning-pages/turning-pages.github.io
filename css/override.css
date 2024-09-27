@@ -48,9 +48,9 @@ hr {
   content: url(https://raw.githubusercontent.com/turning-pages/turning-pages.github.io/refs/heads/main/css/turning-pages.png);
 }
 .site-title {
-  width: 280px;
-  height: 54px;
-  display: block;
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .goodreadsIco {
