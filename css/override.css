@@ -45,7 +45,9 @@ hr {
 }
 
 .site-title:before {
-  content: url(https://raw.githubusercontent.com/turning-pages/turning-pages.github.io/refs/heads/main/css/turning-pages.png) no-repeat 6px center;
+  content: url(https://raw.githubusercontent.com/turning-pages/turning-pages.github.io/refs/heads/main/css/turning-pages.png);
+}
+.site-title {
   width: 280px;
   height: 54px;
   display: block;
