@@ -13,7 +13,4 @@ For some people, reading isn’t just a hobby; it’s an exploration. Each book 
 
 So, without further ado, let’s begin ...
 
-<script>
-    var audio = new Audio('https://github.com/turning-pages/turning-pages.github.io/raw/refs/heads/main/public/twinpeaks.mp4?raw=true');
-    audio.play();
-</script>
+<video src="[video1.mov](https://github.com/turning-pages/turning-pages.github.io/raw/refs/heads/main/public/twinpeaks.mp4?raw=true)" width="100%" height="100px"/>
