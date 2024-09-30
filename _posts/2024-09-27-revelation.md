@@ -13,6 +13,6 @@ For some people, reading isn’t just a hobby; it’s an exploration. Each book 
 
 So, without further ado, let’s begin ...
 
-<audio controls autoplay>
+<audio controls autoplay loop>
   <source src="https://github.com/turning-pages/turning-pages.github.io/raw/refs/heads/main/public/twinpeaks.mp3?raw=true" type="audio/mpeg">
 </audio>
