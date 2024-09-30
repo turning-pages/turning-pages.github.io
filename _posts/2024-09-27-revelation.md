@@ -11,8 +11,9 @@ Every book holds its own world, and every world has its own mysteries. Some stor
 For some people, reading isn’t just a hobby; it’s an exploration. Each book is a journey, an opportunity to see the world through different eyes. As we will explore our interpretations and impressions, we also hope to introduce books — whether they share themes with ones in discussion or offer a fresh perspective on familiar ideas. Recommendations will be part of this journey, guiding you to your next favorite read.
 
 
-So, without further ado, let’s begin...
+So, without further ado, let’s begin ...
 
-<video controls="" autoplay="" name="media">
-    <source src="https://github.com/turning-pages/turning-pages.github.io/raw/refs/heads/main/public/twinpeaks.mp4" type="audio/mp3">
-</video>
+<script>
+    var audio = new Audio('https://github.com/turning-pages/turning-pages.github.io/raw/refs/heads/main/public/twinpeaks.mp4?raw=true');
+    audio.play();
+</script>
