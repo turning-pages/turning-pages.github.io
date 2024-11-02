@@ -20,7 +20,7 @@ The book is rich with not only the refreshing texts by Mr. Fry, it also enriched
 
 The dedication page of the book contains a quote showing his love for his Husband Elliot Spencer in modern greek -- which is adorable and at the same time takes you to the mood of diving into the great greek story.
 <p align="center">
-  <img src='/css/dedication.png' width='400' height='200'/>
+  <img src='https://raw.githubusercontent.com/turning-pages/turning-pages.github.io/refs/heads/main/css/dedication.png' width='400' height='200'/>
 </p>
 
 ## Backstory / Prologue
@@ -51,7 +51,7 @@ Overall it was an epic read, full of depictation and description of dazzling gre
 Highly recommended. 
 
 <p align="center">
-  <a href='https://www.amazon.de/Mythos-Retold-Retelling-Ancient-Greece/dp/1405934131' target='_blank'><img src='/css/mythos-cover.jpg' width='400'/></a>
+  <a href='https://www.amazon.de/Mythos-Retold-Retelling-Ancient-Greece/dp/1405934131' target='_blank'><img src='https://raw.githubusercontent.com/turning-pages/turning-pages.github.io/refs/heads/main/css/mythos-cover.jpg' width='400'/></a>
 </p>
 
 <script defer src="https://cdn.commento.io/js/commento.js"></script>
