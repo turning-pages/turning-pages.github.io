@@ -1,5 +1,8 @@
 # Mythos (by Stephen Fry)
-
+---
+title: Mythos (by Stephen Fry)
+tags: myths stephen-fry review
+---
 > Publisher: Penguin Random House UK
 > 
 > Published at: 2018/2019
@@ -8,7 +11,7 @@
 > 
 > Amazon: https://www.amazon.de/Mythos-Retold-Retelling-Ancient-Greece/dp/1405934131 [_non affiliate links_]
 > 
-
+<!--more-->
 
 I came to know about this book first by  <a href="https://www.goodreads.com/user/show/14574596-jobaer-chowdhury">a friend</a>. I admired Stephen Fry for years at that point - as an wonderful actor, narrator, presenter of QI, a man of reason, and above all an wonderful orator. I never known, in my short knowledge that he has been such a prolific writer too.
 
@@ -54,5 +57,13 @@ Highly recommended.
   <a href='https://www.amazon.de/Mythos-Retold-Retelling-Ancient-Greece/dp/1405934131' target='_blank'><img src='https://raw.githubusercontent.com/turning-pages/turning-pages.github.io/refs/heads/main/css/mythos-cover.jpg' width='400'/></a>
 </p>
 
-<script defer src="https://cdn.commento.io/js/commento.js"></script>
-<div id="commento"></div>
+
+
+{% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
