@@ -33,11 +33,12 @@ excerpt_separator: <!--more-->
 
   <div class="share-links">{% include sharelinks.html %}</div>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }} {% include navlinks.html %}
+  <div id="post-content" class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+    <script src="https://justopinion.onrender.com/env.js"></script>
+    <script src="https://justopinion.onrender.com/comments.js"></script>
+    {% include navlinks.html %}
   </div>
-
-  <!-- <script src="https://justopinion.onrender.com/comments.js"></script> -->
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
