@@ -1,8 +1,4 @@
 # Mythos (by Stephen Fry)
----
-title: Mythos (by Stephen Fry)
-tags: myths stephen-fry review
----
 > Publisher: Penguin Random House UK
 > 
 > Published at: 2018/2019
@@ -56,14 +52,3 @@ Highly recommended.
 <p align="center">
   <a href='https://www.amazon.de/Mythos-Retold-Retelling-Ancient-Greece/dp/1405934131' target='_blank'><img src='https://raw.githubusercontent.com/turning-pages/turning-pages.github.io/refs/heads/main/css/mythos-cover.jpg' width='400'/></a>
 </p>
-
-
-
-{% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
