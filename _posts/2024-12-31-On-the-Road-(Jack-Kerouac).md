@@ -1,8 +1,11 @@
 # On the Road (by Jack Kerouac)
 
 > **Publisher**: Viking Compass, Penguine Books Ltd.
+> 
 > **Published at**: Viking Compass Edition 1957, Penguine Classics Edition 1976
+> 
 > **Goodreads**: https://www.goodreads.com/book/show/70401.On_the_Road
+> 
 > **Wiki**: https://en.wikipedia.org/wiki/On_the_Road
 > 
 <!--more-->

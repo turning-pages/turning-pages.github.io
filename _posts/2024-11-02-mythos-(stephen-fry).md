@@ -1,9 +1,11 @@
 # Mythos (by Stephen Fry)
 
 > **Publisher**: Penguin Random House UK 
+> 
 > **Published at**: 2018/2019
+> 
 > **Goodreads**: https://www.goodreads.com/book/show/35074096-mythos
->
+> 
 <!--more-->
 
 I came to know about this book first by  <a href="https://www.goodreads.com/user/show/14574596-jobaer-chowdhury">a friend</a>. I admired Stephen Fry for years at that point - as an wonderful actor, narrator, presenter of QI, a man of reason, and above all an wonderful orator. I never known, in my short knowledge that he has been such a prolific writer too.
