@@ -1,12 +1,9 @@
 # Mythos (by Stephen Fry)
-> Publisher: Penguin Random House UK
-> 
-> Published at: 2018/2019
-> 
-> Goodreads: https://www.goodreads.com/book/show/35074096-mythos
-> 
-> Amazon: https://www.amazon.de/Mythos-Retold-Retelling-Ancient-Greece/dp/1405934131 [_non affiliate links_]
-> 
+
+> **Publisher**: Penguin Random House UK 
+> **Published at**: 2018/2019
+> **Goodreads**: https://www.goodreads.com/book/show/35074096-mythos
+>
 <!--more-->
 
 I came to know about this book first by  <a href="https://www.goodreads.com/user/show/14574596-jobaer-chowdhury">a friend</a>. I admired Stephen Fry for years at that point - as an wonderful actor, narrator, presenter of QI, a man of reason, and above all an wonderful orator. I never known, in my short knowledge that he has been such a prolific writer too.
@@ -50,5 +47,5 @@ Overall it was an epic read, full of depictation and description of dazzling gre
 Highly recommended. 
 
 <p align="center">
-  <a href='https://www.amazon.de/Mythos-Retold-Retelling-Ancient-Greece/dp/1405934131' target='_blank'><img src='https://raw.githubusercontent.com/turning-pages/turning-pages.github.io/refs/heads/main/css/mythos-cover.jpg' width='400'/></a>
+  <a href='https://www.goodreads.com/book/show/35074096-mythos' target='_blank'><img src='https://raw.githubusercontent.com/turning-pages/turning-pages.github.io/refs/heads/main/css/mythos-cover.jpg' width='400'/></a>
 </p>
