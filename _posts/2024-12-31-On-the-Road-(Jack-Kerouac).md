@@ -9,6 +9,7 @@
 > **Wiki**: https://en.wikipedia.org/wiki/On_the_Road
 > 
 <!--more-->
+
 ## How I got my hand on this
 
 Growing up, I never heard the name of Jack Kerouac. Being from somewhere where it was not a common household practice to read English books (_except if it was a classic_), Jack Kerouac was not really a name to exercise. Later in my late teens, when the world was slowly opening up to me, I came to know about the Hippie movement and their predecessors, "Beats". Names and works of people like Allen Ginsberg, Kerouac, and William S. Burroughs were flowing in the book circles and, as was the nature of the age, they were treated as "holy" — for lack of a better word. "On the Road" was always considered one of the defining books of the Beat Generation. It took me some time and the right moment to finally pick it up, but once I did, it was like jumping into a road trip that spanned decades and miles of imagination.
