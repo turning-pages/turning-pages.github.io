@@ -1,4 +1,4 @@
-# On the Road (by Jack Kerouac)
+# The True Believer (by Eric Hoffer)
 
 > **Publisher**: Harper & Row Publishers, Harperperennial.
 > 
