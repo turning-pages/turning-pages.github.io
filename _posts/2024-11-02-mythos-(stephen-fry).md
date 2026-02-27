@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Mythos (Stephen Fry)"
+description: "a stylish, witty, and highly accessible retelling of Greek myths, bringing the dramatic and often hilarious stories of the Olympian gods to life for a modern audience."
+image: css/mythos-cover.jpg
+---
+
 # Mythos (by Stephen Fry)
 
 > **Publisher**: Penguin Random House UK 

@@ -1,3 +1,10 @@
+---
+layout: post
+title: "On the Road (Jack Kerouac)"
+description: "A frenetic, jazz-fueled journey across 1940s America searching for experience and meaning, driven by the reckless spirit of the Beat Generation."
+image: css/on-the-road.jpg
+---
+
 # On the Road (by Jack Kerouac)
 
 > **Publisher**: Viking Compass, Penguine Books Ltd.
