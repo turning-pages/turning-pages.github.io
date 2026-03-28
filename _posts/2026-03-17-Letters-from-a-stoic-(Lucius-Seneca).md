@@ -5,7 +5,7 @@ description: "No man can live a happy life, or even a supportable life, without 
 image: css/letters-from-a-stoic.png
 ---
 
-# Letters from a Stoic - Lucius Seneca
+# Letters from a Stoic (by Lucius Seneca)
 > **Publisher**: HarperCollins Publisher, UK
 > 
 > **Published at**: January 01, 1964
@@ -33,8 +33,8 @@ But as we know social media contents is all about grabbing the `8 second attenti
 <br />
 But Stoicism is not only a philosophy to me - it's also a way of thinking, reflecting and responding to situation - while actively not thinking about this. <br />
 It's more like absorbing the gist out of it. 
-<br />
-And this letters (124 of them) are not just letter to the Roman Lawyer/Pleader/Procurator Lucilius, they are in fact essays. Discussing everyday events and terms in light of Stoic philosophy. Life, politics, death everything is included in this. 
+
+This book, a collection of 124 letters, was originally titled `"Ad Lucilium Epistulae Morales"` or Moral letters to Lucilius. They are not just letter to the Roman Lawyer/Pleader/Procurator Lucilius, they are in fact essays. Discussing everyday events and terms in light of Stoic philosophy. Life, politics, death everything is included in this. 
 
 Having talked about death, he himself unfortunately had to embrace death by suicide by order of emperor Nero. He was probably not at all afraid of this - as he said himself: `"Life, if courage to die be lacking, is slavery!"`
 <br />
@@ -42,7 +42,7 @@ Hence I thought to put my learnings from this book in written form - "before i f
 <br />
 
 ## What's in there ...
-Letters from a Stoic is not a book to be “read” in the traditional sense. Rather it is one that needs to be dipped into, return to, and occasionally argue with. 
+Letters from a Stoic is not a book to be “read” in the traditional sense. Rather it is one that needs to be dipped into, return to, and occasionally argue.
 
 Across its letters, Seneca writes with a mix of intimacy and authority, offering reflections that feel as personal as they are philosophical. 
 
