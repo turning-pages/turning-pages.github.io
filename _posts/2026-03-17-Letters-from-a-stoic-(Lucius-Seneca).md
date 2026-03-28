@@ -103,7 +103,8 @@ And one book alone cannot make a practice.
 
 I recommend it.
 
-Don’t swim in the hype—step into it lightly. A small puddle of Stoicism can be surprisingly refreshing.
+Don’t swim in the hype, put a gentle step into it lightly. 
+A small puddle of Stoicism can be surprisingly refreshing.
 <br/>
 <p align="center">
   <a href='https://www.goodreads.com/book/show/189585102-letters-from-a-stoic-collins-classics-paperback-17-september-2020' target='_blank'><img src='https://raw.githubusercontent.com/turning-pages/turning-pages.github.io/refs/heads/main/css/letters-from-a-stoic.png' width='400'/></a>
