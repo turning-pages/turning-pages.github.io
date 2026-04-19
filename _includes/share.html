@@ -1,26 +1,42 @@
+{% assign share_u = page.url | absolute_url | cgi_escape %}
+{% assign share_url_plain = page.url | absolute_url %}
+{% assign share_text_plain = page.title | append: ' — ' | append: share_url_plain %}
 <div class="share sticky-top sticky-top-offset">
     <p>
         Share
     </p>
     <ul>
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <a target="_blank" rel="noopener noreferrer" title="Share on Goodreads" href="https://www.goodreads.com/update_status?url={{ share_u }}" onclick="window.open(this.href, 'goodreads-share', 'width=600,height=600');return false;">
+                <i class="fab fa-goodreads"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" rel="noopener noreferrer" title="Share on Twitter" href="https://twitter.com/intent/tweet?text={{ page.title | cgi_escape }}&url={{ share_u }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                 <i class="fab fa-twitter"></i>
             </a>
         </li>
 
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+            <a target="_blank" rel="noopener noreferrer" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u={{ share_u }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
                 <i class="fab fa-facebook-f"></i>
             </a>
         </li>
 
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'width=550,height=435');return false;">
+            <a target="_blank" rel="noopener noreferrer" title="Share on LinkedIn" href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_u }}" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=435');return false;">
                 <i class="fab fa-linkedin-in"></i>
             </a>
         </li>
 
+        <li class="ml-1 mr-1">
+            <a href="#" class="share-action-instagram" role="button" title="Share to Instagram" aria-label="Share to Instagram"
+               data-share-url="{{ share_url_plain | xml_escape }}"
+               data-share-text="{{ share_text_plain | xml_escape }}">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
     </ul>
     {% if page.comments != false %}
     <div class="sep">
@@ -32,3 +48,25 @@
     </ul>
     {% endif %}
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.share-action-instagram').forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      var url = btn.getAttribute('data-share-url');
+      var text = btn.getAttribute('data-share-text') || url;
+      if (navigator.share) {
+        navigator.share({ title: document.title, text: text, url: url }).catch(function () {});
+      } else if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(function () {
+          window.alert('Copied title and link—paste into Instagram (post, story link sticker, or caption).');
+        }).catch(function () {
+          window.prompt('Copy for Instagram:', text);
+        });
+      } else {
+        window.prompt('Copy for Instagram:', text);
+      }
+    });
+  });
+});
+</script>
