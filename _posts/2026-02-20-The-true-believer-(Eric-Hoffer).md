@@ -70,7 +70,7 @@ They are certain! No matter the issues are right or wrong - fanatics are always 
 
 - His life and thought were featured in the documentary [The Crowded Life](https://www.imdb.com/title/tt0315449/), which leans into the romance of the self-taught thinker. His biography [Eric Hoffer: The Longshoreman Philosopher](https://www.amazon.de/-/en/Eric-Hoffer-Longshoreman-Philosopher-Institution/dp/0817914153) paints a good picture of him as a person and his thought process when he produced his best works.
 
-- Critics argue he overgeneralizes and flattens historical complexity. Admirers counter that his psychological lens, not historical detail, is the point — and that his aphoristic clarity is precisely why the book endures.
+- Critics argue he overgeneralizes and flattens historical complexity. Admirers counter that his psychological lens, not historical detail, is the point ... and that his aphoristic clarity is precisely why the book endures.
 
 
 ## should you or shouldn't

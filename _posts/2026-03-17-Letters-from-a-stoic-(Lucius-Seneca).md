@@ -89,7 +89,7 @@ I’m experimenting with its mechanism, the way it reframes discomfort, control,
 Some days, it sharpens things. Other days, it's not even focusing properly.
 
 So I rotate lenses and filters. 
-Stoicism is one of them—useful, often grounding, but not exclusive. 
+Stoicism is one of them: useful, often grounding, but not exclusive. 
 Life, after all, resists single photography style.
 
 That said, I do understand the admiration and hype and hot-arguments in study-circles around Stoicism. 

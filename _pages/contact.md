@@ -5,7 +5,7 @@ permalink: /contact/
 comments: false
 ---
 
-If something here resonated—a line, a take, a book you now need to argue with—I am glad the site did its job.
+If something here resonated: a line, a take, a book you now need to argue with, I am glad the site did its job.
 
 ## Email
 
