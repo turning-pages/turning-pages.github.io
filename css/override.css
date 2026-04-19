@@ -44,11 +44,40 @@ hr {
   opacity: 0.3;
 }
 
-/* Minima-era header logo removed; Mediumish uses navbar brand image from `logo` in _config.yml */
+/* Navbar logo: theme caps at 30px — scale up to match bar height */
+nav.mediumnavigation {
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+}
 
-.navbar-brand img {
-  max-height: 40px;
+nav.mediumnavigation .navbar-brand {
+  margin-right: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav.mediumnavigation .navbar-brand img {
+  max-height: 52px;
+  height: auto;
   width: auto;
+  display: block;
+}
+
+/* Fixed nav grew with logo; keep main content below it */
+.site-content {
+  margin-top: 72px;
+}
+
+@media (max-width: 991px) {
+  nav.mediumnavigation .navbar-brand img {
+    max-height: 44px;
+  }
+
+  .site-content {
+    margin-top: 64px;
+  }
 }
 
 .goodreadsIco {

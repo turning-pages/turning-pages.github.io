@@ -30,7 +30,8 @@ post_class: post-template
                         {% endif %}
                     </div>
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-                        <a target="_blank" rel="noopener noreferrer" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a>{% if author.twitter and author.twitter != "" %}<a target="_blank" rel="noopener noreferrer" href="{{ author.twitter }}" class="btn follow">Follow</a>{% endif %}
+                        <a target="_blank" rel="noopener noreferrer" class="link-dark" href="{{ author.web }}" target="_blank">{{ author.display_name }}</a><br/>
+                        {% if author.twitter and author.twitter != "" %}<a target="_blank" rel="noopener noreferrer" href="{{ author.twitter }}" class="btn follow">Follow</a>{% endif %}
                         <span class="author-description">{{ author.description }}</span>
                     </div>
                 </div>

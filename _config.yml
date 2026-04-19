@@ -20,7 +20,7 @@ authors:
     avatar: "assets/images/avatar.png"
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: ""
-    web: "https://github.com/turning-pages"
+    web: "https://www.ifelseandetc.xyz"
     twitter: ""
     description: "Reader, reviewer, occasional ranter about books."
 
@@ -46,9 +46,6 @@ kramdown:
 
 # Theme options
 lazyimages: "disabled"
-
-# Leave blank to hide newsletter bar in the theme
-mailchimp-list: ""
 
 # Leave blank to disable Disqus / count script
 disqus: ""
