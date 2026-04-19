@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog Archive
+permalink: /archive/
 ---
 
 {% for tag in site.tags %}
@@ -8,7 +9,7 @@ title: Blog Archive
   <ul>
     {% for post in tag[1] %}
       <li>
-        <a href="{{ post.url }}">{{ post.date | date: "%B %Y" }} - {{ post.title }}</a>
+        <a href="{{ post.url | relative_url }}">{{ post.date | date: "%B %Y" }} - {{ post.title }}</a>
         {{ post.excerpt }}
       </li>
     {% endfor %}

@@ -3,6 +3,13 @@ layout: post
 title: "Letters from a Stoic - Lucius Seneca (Ad Lucilium Epistulae Morales)"
 description: "No man can live a happy life, or even a supportable life, without the study of wisdom"
 image: css/letters-from-a-stoic.png
+tags:
+  - philosophy
+  - stoicism
+  - seneca
+categories:
+  - Books
+  - Classics
 ---
 
 # Letters from a Stoic (by Lucius Seneca)

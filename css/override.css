@@ -44,14 +44,11 @@ hr {
   opacity: 0.3;
 }
 
-.site-title:before {
-  content: url(https://raw.githubusercontent.com/turning-pages/turning-pages.github.io/refs/heads/main/css/turning-pages.png);
-}
+/* Minima-era header logo removed; Mediumish uses navbar brand image from `logo` in _config.yml */
 
-.site-title {
-  width: 290px;
-  display: flex;
-  justify-content: space-between;
+.navbar-brand img {
+  max-height: 40px;
+  width: auto;
 }
 
 .goodreadsIco {

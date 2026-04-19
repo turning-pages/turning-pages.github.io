@@ -3,6 +3,13 @@ layout: post
 title: "The True Believer (Eric Hoffer)"
 description: "A sharp look at mass movements and the psychology of belief."
 image: css/the-true-believer.png
+tags:
+  - philosophy
+  - politics
+  - mass psychology
+categories:
+  - Books
+  - Classics
 ---
 
 # The True Believer (by Eric Hoffer)

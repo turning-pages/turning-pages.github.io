@@ -1,42 +1,79 @@
+# Site
+name: "Turning Pages"
 title: "Turning Pages"
-author: "✍️ Regular Bookworm ✍️"
-description: "A humble place to discuss books and turn some pages ... ... ..." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+description: "A humble place to discuss books and turn some pages ... ... ..."
 
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-#email: "example@mail.com"
-#twitter_username: "twitteruser"
-#github_username: "githubuser"
-#linkedin_username: "linkedinuser"
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
+logo: "assets/images/turning-pages.png"
+# Small file for browser tabs; navbar uses `logo` above.
+favicon: "assets/images/favicon.png"
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-theme: "minima"
+url: "https://turning-pages.github.io"
+baseurl: ""
 
-rss: rss
+include: ["_pages"]
+
+# Authors (Mediumish expects `author` in post front matter to match a key here)
+authors:
+  bookworm:
+    name: "Regular Bookworm"
+    display_name: "✍️ Regular Bookworm ✍️"
+    avatar: "assets/images/avatar.png"
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: ""
+    web: "https://github.com/turning-pages"
+    twitter: ""
+    description: "Reader, reviewer, occasional ranter about books."
+
+# Plugins (GitHub Pages–compatible only; do not add jekyll-archives)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Pagination
+paginate: 6
+paginate_path: "/page:num/"
+
+markdown: kramdown
 
 kramdown:
+  input: GFM
+  syntax_highlighter: rouge
   syntax_highlighter_opts:
-    disable: true
-    
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+    block:
+      line_numbers: true
 
-titles_from_headings:
-  strip_title: true
-  collections: true
+# Theme options
+lazyimages: "disabled"
+
+# Leave blank to hide newsletter bar in the theme
+mailchimp-list: ""
+
+# Leave blank to disable Disqus / count script
+disqus: ""
+
+exclude:
+  - LICENSE.txt
+  - Gemfile
+  - Gemfile.lock
+
+excerpt_separator: "<!--more-->"
 
 defaults:
   - scope:
       path: ""
-      type: post
+      type: "posts"
     values:
-      tags: Other
+      author: bookworm
+      tags: ["Other"]
+      comments: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      comments: false
+
+titles_from_headings:
+  strip_title: true
+  collections: true
