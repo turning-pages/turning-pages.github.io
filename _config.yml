@@ -3,7 +3,7 @@ name: "Turning Pages"
 title: "Turning Pages"
 description: "A humble place to discuss books and turn some pages ... ... ..."
 
-logo: "assets/images/turning-pages.png"
+logo: "assets/images/turning-pages-header.png"
 # Small file for browser tabs; navbar uses `logo` above.
 favicon: "assets/images/favicon.png"
 

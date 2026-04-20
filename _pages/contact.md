@@ -19,7 +19,6 @@ Short messages are welcome. Slightly longer ones that say **what you want**, **w
 
 ## Elsewhere
 
-- **GitHub:** [github.com/turning-pages](https://github.com/turning-pages)  
 - **Main site:** [ifelseandetc.xyz](https://www.ifelseandetc.xyz/) (engineering, reading, photos, experiments)
 
 ## Response time

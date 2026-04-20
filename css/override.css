@@ -59,7 +59,7 @@ nav.mediumnavigation .navbar-brand {
 }
 
 nav.mediumnavigation .navbar-brand img {
-  max-height: 52px;
+  max-height: 48px;
   height: auto;
   width: auto;
   display: block;
@@ -67,16 +67,16 @@ nav.mediumnavigation .navbar-brand img {
 
 /* Fixed nav grew with logo; keep main content below it */
 .site-content {
-  margin-top: 72px;
+  margin-top: 68px;
 }
 
 @media (max-width: 991px) {
   nav.mediumnavigation .navbar-brand img {
-    max-height: 44px;
+    max-height: 40px;
   }
 
   .site-content {
-    margin-top: 64px;
+    margin-top: 60px;
   }
 }
 
