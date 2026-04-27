@@ -50,6 +50,11 @@ lazyimages: "disabled"
 # Leave blank to disable Disqus / count script
 disqus: ""
 
+# Umami analytics (loaded only in production)
+umami_enable: true
+umami_script_url: "https://cloud.umami.is/script.js"
+umami_website_id: "4e50b0a0-fab2-4c5f-82d3-a33af370481f"
+
 exclude:
   - LICENSE.txt
   - Gemfile

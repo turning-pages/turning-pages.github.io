@@ -21,6 +21,10 @@
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
+{% if site.umami_enable and site.umami_script_url and site.umami_website_id and jekyll.environment == "production" %}
+<script defer src="{{ site.umami_script_url }}" data-website-id="{{ site.umami_website_id }}"></script>
+{% endif %}
+
 </head>
 
 {% if site.google_analytics and site.google_analytics != "" and jekyll.environment == "production" %}
